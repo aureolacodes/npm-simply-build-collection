@@ -1,0 +1,3 @@
+# Simply: SCSSlint
+
+TODO

@@ -1,0 +1,6 @@
+dest: ./doc/scss
+package: ./package.json
+theme: neat
+groups:
+  undefined: Basic API
+no-update-notifier: true

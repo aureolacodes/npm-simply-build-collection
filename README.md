@@ -1,2 +1,3 @@
-# npm-simply-build-collection
-A collection of simply tasks.
+# Simply: Tasks Collection
+
+TODO

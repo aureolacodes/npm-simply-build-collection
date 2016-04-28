@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    "jscs-jsdoc",
+    "jscs-angular"
+  ],
+  "jsDoc": {
+    "checkAnnotations": {
+      "preset": "jsdoc3",
+      "extra": {
+        "flow": true
+      }
+    },
+    "checkTypes": "strictNativeCase",
+    "enforceExistence": "exceptExports",
+    "checkParamNames": true
+  },
+  "preset": "google",
+  "disallowSpacesInFunction": null,
+  "disallowKeywordsOnNewLine": false,
+  "esnext": true
+}
