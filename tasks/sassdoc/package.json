@@ -1,0 +1,19 @@
+{
+  "name": "simply-build-task-sassdoc",
+  "version": "0.0.0",
+  "description": "Document sass files using sassdoc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Han <support@aureola.codes>",
+  "license": "MIT",
+  "dependencies": {
+    "sassdoc": "^2.1.20",
+    "sassdoc-theme-neat": "0.0.2"
+  },
+  "config": {
+    "src": "./src/scss",
+    "dest": "./documentation/scss"
+  }
+}
