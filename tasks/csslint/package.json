@@ -1,0 +1,17 @@
+{
+  "name": "simply-build-task-csslint",
+  "version": "0.0.0",
+  "description": "Lint CSS files using the csslint package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Han <support@aureola.codes>",
+  "license": "MIT",
+  "config": {
+    "src": "./src/scss/*"
+  },
+  "dependencies": {
+    "csslint": "^0.10.0"
+  }
+}
