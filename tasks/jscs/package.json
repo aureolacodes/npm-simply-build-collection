@@ -1,0 +1,19 @@
+{
+  "name": "simply-build-task-jscs",
+  "version": "0.0.0",
+  "description": "Lint js files using jscs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Han <support@aureola.codes>",
+  "license": "MIT",
+  "dependencies": {
+    "jscs": "^3.0.3",
+    "jscs-angular": "^2.0.0",
+    "jscs-jsdoc": "^2.0.0"
+  },
+  "config": {
+    "src": "./src/js"
+  }
+}

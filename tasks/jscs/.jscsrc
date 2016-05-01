@@ -5,10 +5,7 @@
   ],
   "jsDoc": {
     "checkAnnotations": {
-      "preset": "jsdoc3",
-      "extra": {
-        "flow": true
-      }
+      "preset": "jsdoc3"
     },
     "checkTypes": "strictNativeCase",
     "enforceExistence": "exceptExports",
@@ -16,6 +13,5 @@
   },
   "preset": "google",
   "disallowSpacesInFunction": null,
-  "disallowKeywordsOnNewLine": false,
-  "esnext": true
+  "disallowKeywordsOnNewLine": false
 }
