@@ -1,3 +1,0 @@
-# Simply: Uglify JS
-
-TODO

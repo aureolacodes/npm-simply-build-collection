@@ -1,3 +1,0 @@
-# Simply: Uglify CSS
-
-TODO

@@ -1,3 +1,0 @@
-# Simply: Build CocoonJS
-
-TODO

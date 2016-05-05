@@ -1,3 +1,0 @@
-# Simply: Minify HTML
-
-TODO
