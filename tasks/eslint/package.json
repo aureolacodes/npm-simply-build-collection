@@ -1,0 +1,19 @@
+{
+  "name": "simply-build-task-eslint",
+  "version": "0.0.0",
+  "description": "Lint javascript files using eslint.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Han <support@aureola.codes>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.9.0",
+    "eslint-plugin-babel": "^3.2.0"
+  },
+  "config": {
+    "src": "./src/js"
+  }
+}

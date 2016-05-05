@@ -3,7 +3,6 @@
   parser: "babel-eslint"
   plugins:
     - "babel"
-    - "flow-vars"
   parserOptions:
     ecmaVersion: 7
     sourceType: "module"
