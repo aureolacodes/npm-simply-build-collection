@@ -1,0 +1,19 @@
+{
+  "name": "simply-build-collection-postcss",
+  "version": "0.0.0",
+  "description": "Transform stylesheet using postcss.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Han <support@aureola.codes>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^6.3.6",
+    "postcss": "^5.0.21"
+  },
+  "config": {
+    "src": "./dist/css/styles.css",
+    "dest": "./dist/css/styles.css"
+  }
+}
