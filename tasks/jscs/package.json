@@ -9,7 +9,7 @@
   "author": "Chris Han <support@aureola.codes>",
   "license": "MIT",
   "dependencies": {
-    "jscs": "^3.0.3",
+    "jscs": "^2.11.0",
     "jscs-angular": "^2.0.0",
     "jscs-jsdoc": "^2.0.0"
   },
