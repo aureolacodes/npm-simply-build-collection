@@ -18,8 +18,10 @@
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
     "karma-browserify": "^5.0.4",
+    "karma-coverage": "^1.0.0",
     "karma-electron": "^3.2.0",
-    "karma-jasmine": "^1.0.2"
+    "karma-jasmine": "^1.0.2",
+    "watchify": "^3.7.0"
   },
   "config": {
     "src": "test"
