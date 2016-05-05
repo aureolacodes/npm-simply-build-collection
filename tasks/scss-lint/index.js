@@ -10,8 +10,9 @@ const exec = require('child_process').exec;
 const config = require('./package.json').config;
 
 let rules = path.resolve(__dirname, '.scss-lint.yml');
+let command = `./node_modules/.bin/sass-lint -c ${rules} '${config.pattern}' -v -q -i 'config.ignore'`;
 
-exec(`scss-lint -c ${rules} ${config.src}`, (error, stdout, stderr) => {
+exec(command, (error, stdout, stderr) => {
   if (stdout || stderr || error) {
     console.log(stdout + stderr + error);
   }
