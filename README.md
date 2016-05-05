@@ -1,3 +1,3 @@
 # Simply: Tasks Collection
 
-TODO
+A collection of simply tasks I use in my projects.
