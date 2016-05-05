@@ -1,0 +1,21 @@
+{
+  "name": "simply-build-task-html-minifier",
+  "version": "0.0.0",
+  "description": "Minify html files using html-minifier.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Han <support@aureola.codes>",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.0.3",
+    "html-minifier": "^2.1.1",
+    "mkpath": "^1.0.0"
+  },
+  "config": {
+    "src": "./src",
+    "dest": "./dist",
+    "pattern": "**/*.html"
+  }
+}
