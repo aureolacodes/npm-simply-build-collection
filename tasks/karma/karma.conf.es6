@@ -1,9 +1,6 @@
 /**
  * @file
  * Karma setup for use with browserify, babelify, jasmine & istanbul.
- *
- * @author Christian Hanne <hanne@laborb.de>
- * @copyright 2016, labor b designbüro
  */
 
 const browserifyIstanbul = require('browserify-istanbul');
